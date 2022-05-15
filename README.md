@@ -26,6 +26,17 @@ Mostrar tabelas
 SHOW TABLES
 ````
 
+inserir dados em uma tabela
+````
+INSERT INTO <nome da tabela>(nome, apartamento, email, senha) VALUE(
+  "nome",
+  "apartamento",
+  "email",
+  "senha"
+);
+````
+
+
 
 ## Tipos de dados
 - TEXT: textos
@@ -34,4 +45,3 @@ SHOW TABLES
 - FLOAT: números decimais
 - DATE: para datas
 - BLOB: para arquivos
-- 
